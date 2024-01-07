@@ -44,9 +44,9 @@ class HorrorCentralSkill(OVOSCommonPlaybackSkill):
                                   "film_genre", genre)
         self.register_ocp_keyword(MediaType.MOVIE,
                                   "movie_streaming_provider",
-                                  ["World Movie Central",
+                                  ["Horror Movie Central",
                                    "Movie Central",
-                                   "WorldMovieCentral"])
+                                   "HorrorCentral"])
 
     def get_playlist(self, score=50, num_entries=25):
         pl = self.featured_media()[:num_entries]
